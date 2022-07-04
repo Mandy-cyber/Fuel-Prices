@@ -38,7 +38,8 @@ Gasolene 90 is a mid-range octane fuel. Now, about Diesel think of it like this:
 
 Data Summary
 ------
-The pandas package in Python has a really quick and easy function to get the basic summary/description of a dataframe. Voila,
+The pandas package in Python has a really quick and easy function to get the basic summary/description of a dataframe, which can be seen below. Furthermore, looking at the description, I do not recognize any outliers or potential errors in the data.
+
 ````Python
 import pandas as pd
 
@@ -46,14 +47,18 @@ df = pd.read_csv ('regdata.csv')
 print(df.describe())
 ````
 
+<img align="left" src="https://user-images.githubusercontent.com/67931161/177185818-4ed008ac-5a47-48c4-88d1-234c6590da24.gif" height="50%" width="50%">
+<img align="right" src="https://user-images.githubusercontent.com/67931161/177186805-939af9cd-3f79-471f-830d-0b4a60ec6dea.png" height="48%" width="48%">
+<br clear="left">
 
 <br>
+<br clear="left">
 
 Types of Moving Averages
 ------
 I'll be using and comparing three different moving averages to find the one closest to the historical data - assuming this is a good representation of future fuel prices. The three types are:
 
-| **Abbreviation** |           **Name**             | **Calculation**  |
+| **Abbreviation** |       **Name**         | **Calculation**  |
 | :------------|:---------------------------| :----------- |
 | **SMA**      | Simple Moving Average      | Sum of values divided by the number of values | 
 | **WMA**      | Weighted Moving Average    | (price * weighting factor) + (Price of previous period * weighting factor-1) |
@@ -68,7 +73,7 @@ When using SMA, the average standard deviation of gasolene fuel prices is less t
 
 | DATA | GRAPH | 
 |------| ------|
-| ![image](https://user-images.githubusercontent.com/67931161/177079644-16d72f96-61fe-4bc3-b92b-eb7a83d04d07.png) |  ![image](https://user-images.githubusercontent.com/67931161/177080202-19022e15-8943-42d9-926d-62b46fe97c41.png) | 
+| ![image](https://user-images.githubusercontent.com/67931161/177079644-16d72f96-61fe-4bc3-b92b-eb7a83d04d07.png) |  ![image](https://user-images.githubusercontent.com/67931161/177181516-a9ee0df9-c025-425f-bb9b-5827a15c34e2.png) | 
 
 <br>
 
@@ -78,7 +83,7 @@ When using WMA, the same observations were made as with the SMA. This ```prompts
 
 | DATA | GRAPH | 
 |------| ------|
-| ![image](https://user-images.githubusercontent.com/67931161/177081651-995186f6-aee6-4e20-8920-2daf4e2c1689.png) | ![image](https://user-images.githubusercontent.com/67931161/177082047-372b1fce-8c13-46c9-b59a-09aedbdce05b.png) | 
+| ![image](https://user-images.githubusercontent.com/67931161/177081651-995186f6-aee6-4e20-8920-2daf4e2c1689.png) | ![image](https://user-images.githubusercontent.com/67931161/177181442-e72f79c1-5fbb-4eb7-b17c-7829421f1460.png) | 
 
 <br>
 
@@ -88,18 +93,30 @@ When using EMA, the same observations as above were made. This, again,  ```promp
 
 | DATA | GRAPH | 
 |------| ------|
-| ![image](https://user-images.githubusercontent.com/67931161/177084715-7bc8ec40-1470-4d2a-9bd7-5b1206ae16dd.png) | ![image](https://user-images.githubusercontent.com/67931161/177084876-887307b7-b5fe-45b8-b7c3-b8e77616e75f.png) | 
+| ![image](https://user-images.githubusercontent.com/67931161/177084715-7bc8ec40-1470-4d2a-9bd7-5b1206ae16dd.png) | ![image](https://user-images.githubusercontent.com/67931161/177181929-51f565a8-67d2-4ab1-a655-859cf40e9d19.png) | 
 
 <br>
 
 Choosing The Best Price
 ------
+<img align="right" src="https://user-images.githubusercontent.com/67931161/177182055-c64de8c5-1365-479b-8a1b-6cb087cd206c.png" height="50%" width="50%">
+
 All three averages showed that, theoretically-speaking, the Tycoon would pay less money to buy Gasolene 90 than Auto Diesel. It is now time to choose which of the moving averages is the most accurate and can be considered my [final prediction](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#final-prediction). Observations:
-* The 
+* The price calculated using EMA had the smallest average standard deviation. This average deviation is calculated with a 4 week time period.
+* Looking at the graph, throughout the Jan 2020 - June 2022 time period, the WMA and EMA calculations have been the closest to the actual price. Even during the Feb 2022 period where the fuel prices suddenly go off-trend (due to the start of the Ukraine-Russia war) the WMA and EMA calculations stay closest to reality. The EMA remains the closest.
+* Really the competition is between EMA and WMA. In my opinion, the EMA value is the best choice due to how its calculated, and of course we can see its accuracy when looking at the standard deviation and the graph. Whilst both the EMA and WMA place more weight on recent values, the WMA's weights remain constant, whereas the EMA is inconsistent and hence more dynamic with its weightage as a result of it being exponential. Accordingly, the EMA calculations are able to react quicker to sudden price changes. 
+
+Calculation for EMA = 219.2698507 - (-3.171806891) = 222.441657591
 
 <br>
 
 Final Prediction
+------
+All things considered, next week the Tycoon should purchase ```Gasolene 90``` and will pay approximately ```$222.44/gallon```.
+
+<br>
+
+#### Resources
 ------
 
 
