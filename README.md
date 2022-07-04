@@ -107,18 +107,29 @@ All three averages showed that, theoretically-speaking, the Tycoon would pay les
 * Looking at the graph, throughout the Jan 2020 - June 2022 time period, the WMA and EMA calculations have been the closest to the actual price. Even during the Feb 2022 period where the fuel prices suddenly go off-trend (due to the start of the Ukraine-Russia war) the WMA and EMA calculations stay closest to reality. The EMA remains the closest.
 * Really the competition is between EMA and WMA. In my opinion, the EMA value is the best choice due to how its calculated, and of course we can see its accuracy when looking at the standard deviation and the graph. Whilst both the EMA and WMA place more weight on recent values, the WMA's weights remain constant, whereas the EMA is inconsistent and hence more dynamic with its weightage as a result of it being exponential. Accordingly, the EMA calculations are able to react quicker to sudden price changes. 
 
-Calculation for EMA = 219.2698507 - (-3.171806891) = 222.441657591
+```
+Calculation for July 7th 2022 Fuel Price 
+= weyrgu
+=
+```
 
 <br>
 
 Final Prediction
-------
+======
 All things considered, next week the Tycoon should purchase ```Gasolene 90``` and will pay approximately ```$xyz/gallon```.
 
 <br>
 
-#### Resources
+Learning Resources
 ------
-
+What I read to do this task:
+* https://www.pythonfordatascience.org/descriptive-statistics-python/
+* https://www.wallstreetmojo.com/moving-average-in-excel/
+* https://www.eia.gov/energyexplained/gasoline/octane-in-depth.php
+* https://www.google.com/search?q=what+is+auto+diesel&oq=what+is+auto+diesel&aqs=chrome..69i57j0i512j0i22i30j69i60l5.2539j0j4&sourceid=chrome&ie=UTF-8
+* https://www.statology.org/exponential-moving-average-google-sheets/
+* https://www.investopedia.com/ask/answers/122314/what-exponential-moving-average-ema-formula-and-how-ema-calculated.asp
+* https://www.investopedia.com/articles/trading/10/simple-exponential-moving-averages-compare.asp
 
 
