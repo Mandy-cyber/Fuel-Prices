@@ -109,15 +109,15 @@ All three averages showed that, theoretically-speaking, the Tycoon would pay les
 
 ```
 Calculation for July 7th 2022 Fuel Price 
-= weyrgu
-=
+= 219.2698507 - (-3.171806891)
+= 222.441657591
 ```
 
 <br>
 
 Final Prediction
 ======
-All things considered, next week the Tycoon should purchase ```Gasolene 90``` and will pay approximately ```$xyz/gallon```.
+All things considered, next week the Tycoon should purchase ```Gasolene 90``` and will pay approximately ```$222.44/gallon```.
 
 <br>
 
