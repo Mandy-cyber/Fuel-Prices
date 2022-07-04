@@ -29,6 +29,13 @@ Gasolene 90 is a mid-range octane fuel. Now, about Diesel think of it like this:
 
 Data Summary
 ------
+The pandas package in Python has a really quick and easy function to get the basic summary/description of a dataframe. Voila,
+````Python
+import pandas as pd
+
+df = pd.read_csv ('regdata.csv')
+print(df.describe())
+````
 
 
 <br>
@@ -68,13 +75,15 @@ When using WMA, the same observations were made as with the SMA. This ```prompts
 
 Exponential Moving Average
 ------
-N.B. Starting point for EMA is February 6th 2021 as the January 2021 values were used to calculate a SMA which acts as the initial EMA value.
-When using WMA, the same observations were made as with the SMA. This
-<br> ```prompts me to recommend Gasolene 90 to the Tycoon```.
+When using EMA, the same observations as above were made. This, again,  ```prompts me to recommend Gasolene 90 to the Tycoon```.
 
 | DATA | GRAPH | 
 |------| ------|
-|  |  | 
+| ![image](https://user-images.githubusercontent.com/67931161/177084715-7bc8ec40-1470-4d2a-9bd7-5b1206ae16dd.png) | ![image](https://user-images.githubusercontent.com/67931161/177084876-887307b7-b5fe-45b8-b7c3-b8e77616e75f.png) | 
 
+
+Choosing The Best Price
+------
+All three averages showed that, theoretically-speaking, the Tycoon would pay less money to buy Gasolene 90 than Auto Diesel
 
 
