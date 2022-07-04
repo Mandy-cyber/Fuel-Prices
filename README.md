@@ -1,9 +1,18 @@
 Tycoon Talk: Fuel Price Prediction
 ======
-
 The Task
 ------
 Given a list of recent fuel prices in Jamaica, which may be found [here](https://www.petrojam.com/price/), I will be predicting which fuel a theoretical business Tycoon should purchase in the week of July 1st to 8th 2022. However, to save a bucket load of time (not really), I'll only be advising the Tycoon between Gasolene 90 and Auto Diesel - i.e which of the two he/she/they should buy.
+
+Table of Contents
+------
+* [The Task](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#the-task)
+* [The Process](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#the-process)
+* [Descriptions](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#descriptions)
+* [Data Summary](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#data-summary)
+* [Types of Moving Averages](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#types-of-moving-averages)
+* [Choosing The Best Price](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#choosing-the-best-price)
+* [Final Prediction](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#final-prediction)
 
 <br>
 
@@ -81,9 +90,17 @@ When using EMA, the same observations as above were made. This, again,  ```promp
 |------| ------|
 | ![image](https://user-images.githubusercontent.com/67931161/177084715-7bc8ec40-1470-4d2a-9bd7-5b1206ae16dd.png) | ![image](https://user-images.githubusercontent.com/67931161/177084876-887307b7-b5fe-45b8-b7c3-b8e77616e75f.png) | 
 
+<br>
 
 Choosing The Best Price
 ------
-All three averages showed that, theoretically-speaking, the Tycoon would pay less money to buy Gasolene 90 than Auto Diesel
+All three averages showed that, theoretically-speaking, the Tycoon would pay less money to buy Gasolene 90 than Auto Diesel. It is now time to choose which of the moving averages is the most accurate and can be considered my [final prediction](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#final-prediction). Observations:
+* The 
+
+<br>
+
+Final Prediction
+------
+
 
 
