@@ -47,7 +47,7 @@ df = pd.read_csv ('regdata.csv')
 print(df.describe())
 ````
 
-<img align="left" src="https://user-images.githubusercontent.com/67931161/177185818-4ed008ac-5a47-48c4-88d1-234c6590da24.gif" height="50%" width="50%">
+<img align="left" src="https://user-images.githubusercontent.com/67931161/177185818-4ed008ac-5a47-48c4-88d1-234c6590da24.gif" height="48%" width="48%">
 <img align="right" src="https://user-images.githubusercontent.com/67931161/177186805-939af9cd-3f79-471f-830d-0b4a60ec6dea.png" height="48%" width="48%">
 <br clear="left">
 
@@ -100,6 +100,7 @@ When using EMA, the same observations as above were made. This, again,  ```promp
 Choosing The Best Price
 ------
 <img align="right" src="https://user-images.githubusercontent.com/67931161/177182055-c64de8c5-1365-479b-8a1b-6cb087cd206c.png" height="50%" width="50%">
+<img align="right" src="https://user-images.githubusercontent.com/67931161/177206446-b7c03444-8427-4e90-951f-2db452fc459a.png" height="50%" width="50%">
 
 All three averages showed that, theoretically-speaking, the Tycoon would pay less money to buy Gasolene 90 than Auto Diesel. It is now time to choose which of the moving averages is the most accurate and can be considered my [final prediction](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#final-prediction). Observations:
 * The price calculated using EMA had the smallest average standard deviation. This average deviation is calculated with a 4 week time period.
@@ -112,7 +113,7 @@ Calculation for EMA = 219.2698507 - (-3.171806891) = 222.441657591
 
 Final Prediction
 ------
-All things considered, next week the Tycoon should purchase ```Gasolene 90``` and will pay approximately ```$222.44/gallon```.
+All things considered, next week the Tycoon should purchase ```Gasolene 90``` and will pay approximately ```$xyz/gallon```.
 
 <br>
 
