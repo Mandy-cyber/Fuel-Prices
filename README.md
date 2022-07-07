@@ -1,10 +1,19 @@
+TABLE OF TASKS
+======
+* [Tycoon Talk: Fuel Price Prediction](https://github.com/StarApple-Intern-AR/Fuel-Prices/edit/main/README.md#tycoon-talk-fuel-price-prediction)
+* [Tycoon Talk: All About Errors](https://github.com/StarApple-Intern-AR/Fuel-Prices/edit/main/README.md#tycoon-talk-all-about-errors)
+* [Tycoon Talk: Regression in Python]()
+
+<br>
+
+--------------
 Tycoon Talk: Fuel Price Prediction
 ======
 The Task
 ------
 Given a list of recent fuel prices in Jamaica, which may be found [here](https://www.petrojam.com/price/), I will be predicting which fuel a theoretical business Tycoon should purchase in the week of July 1st to 8th 2022. However, to save a bucket load of time (not really), I'll only be advising the Tycoon between Gasolene 90 and Auto Diesel - i.e which of the two he/she/they should buy.
 
-Table of Contents
+Table of Contents - Fuel Price Prediction
 ------
 * [The Task](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#the-task)
 * [The Process](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#the-process)
@@ -132,4 +141,88 @@ What I read to do this task:
 * https://www.investopedia.com/ask/answers/122314/what-exponential-moving-average-ema-formula-and-how-ema-calculated.asp
 * https://www.investopedia.com/articles/trading/10/simple-exponential-moving-averages-compare.asp
 
+<br>
+
+-----------
+Tycoon Talk: All About Errors
+======
+The Task
+------
+Part two of the fuel price prediction task is to calculate the errors of our predictions. Previously, I only looked at the deviation and the average deviation, now I'll be looking at 5 other types of errors and will calculate them for my chosen fuel - Gasolene 90.
+
+Table of Contents - All About Errors
+------
+* [Error Types](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#the-task)
+* [Mean Error](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#the-process)
+* [Mean Absolute Error](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#descriptions)
+* [Mean Squared Error](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#data-summary)
+* [Root Mean Square Error](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#types-of-moving-averages)
+* [MAPE](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#choosing-the-best-price)
+* [Errors for Full Time Period](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#final-prediction)
+
+<br>
+
+Error Types
+------
+There are several _several_ different types of errors that can be calculated and used for a variety of different use cases; however, for this task we'll be looking at the following types.
+1. Mean Error
+2. Mean Absolute Error
+3. Mean Squared Error
+4. Root Mean Square Error
+5. Mean Absolute Percentage Error (MAPE)
+
+<br>
+
+**N.B - These errors are calculated on a monthly basis i.e the mean deviation shown in a row is the mean of the deviations for the past 4 weeks of fuel prices. Additionally, click on images to see them larger.**
+
+Mean Error
+------
+| CALCULATION | RESULT | 
+|-------------|--------|
+| ![image](https://user-images.githubusercontent.com/108837959/177859782-1766ad10-26a3-4fc8-8f7a-7e0cfe64161f.png) | ![image](https://user-images.githubusercontent.com/108837959/177857752-4970edff-fb9d-4670-bedb-7ab1f8cc79af.png) |
+
+<br>
+
+Mean Absolute Error
+-------
+| CALCULATION | RESULT |
+|-------------|--------|
+| ![image](https://user-images.githubusercontent.com/108837959/177861057-09bbee98-8735-47fc-93c1-7ebd3694a602.png) | ![image](https://user-images.githubusercontent.com/108837959/177858267-8f709e1c-9041-4419-a88d-4d056bff7bb1.png) | 
+
+<br>
+
+Mean Squared Error
+-------
+| CALCULATION | RESULT |
+|-------------|--------|
+| ![image](https://user-images.githubusercontent.com/108837959/177860937-6c027ddd-c1f5-44b5-9399-9e39230f7d7b.png) | ![image](https://user-images.githubusercontent.com/108837959/177861023-c73bc689-ec6a-4fbd-81f7-f909931c830b.png) | 
+
+<br>
+
+Root Mean Square Error
+-------
+| CALCULATION | RESULT |
+|-------------|--------|
+| ![image](https://user-images.githubusercontent.com/108837959/177861289-837fdfd4-4ca7-4634-b01d-338725a3c04b.png) | ![image](https://user-images.githubusercontent.com/108837959/177861324-2d50fecc-e88f-48a8-8709-93d29e08918b.png) | 
+ 
+<br>
+
+MAPE
+-------
+| CALCULATION pt1 | CALCULATION pt2 | RESULT |
+|-----------------|-----------------|--------|
+| ![image](https://user-images.githubusercontent.com/108837959/177862313-375bb2ef-8622-4869-b1a4-aa7d4fbc01f0.png) | ![image](https://user-images.githubusercontent.com/108837959/177862767-b1880217-6645-4f91-8969-99826de612bf.png) | ![image](https://user-images.githubusercontent.com/108837959/177862809-3f4c8094-da38-47ed-a3c0-f1c270dc46cd.png) |
+
+<br>
+
+Errors for Full Time Period
+------
+The above errors were done per month, the below errors are for the entire dataset.
+* **Mean Error** = **_JMD_** 1.377597761
+* **Mean Absolute** Error = **_JMD_** 1.377597761
+* **Mean Squared Error** = **_JMD^2_** 8.663948773
+* **Root Mean Square Error** = **_JMD_** 2.943458641
+* **MAPE** = 0.7672057212 **_%_**
+
+---------------------------------------------
 
