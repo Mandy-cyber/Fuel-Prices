@@ -152,13 +152,13 @@ Part two of the fuel price prediction task is to calculate the errors of our pre
 
 Table of Contents - All About Errors
 ------
-* [Error Types](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#the-task)
-* [Mean Error](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#the-process)
-* [Mean Absolute Error](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#descriptions)
-* [Mean Squared Error](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#data-summary)
-* [Root Mean Square Error](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#types-of-moving-averages)
-* [MAPE](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#choosing-the-best-price)
-* [Errors for Full Time Period](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#final-prediction)
+* [Error Types](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#error-types)
+* [Mean Error](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#mean-error)
+* [Mean Absolute Error](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#mean-absolute-error)
+* [Mean Squared Error](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#mean-squared-error)
+* [Root Mean Square Error](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#root-mean-square-error)
+* [MAPE](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#mape)
+* [Errors for Full Time Period](https://github.com/Mandy-cyber/Fuel-Prices/edit/main/README.md#errors-for-full-time-period)
 
 <br>
 
