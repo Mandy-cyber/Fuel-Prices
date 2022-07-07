@@ -4,8 +4,6 @@ TABLE OF TASKS
 * [Tycoon Talk: All About Errors](https://github.com/StarApple-Intern-AR/Fuel-Prices/edit/main/README.md#tycoon-talk-all-about-errors)
 * [Tycoon Talk: Regression in Python]()
 
-<br>
-
 --------------
 Tycoon Talk: Fuel Price Prediction
 ======
